@@ -1,3 +1,4 @@
+/*
 //alert('hello, world!!');
 console.log(1);
 console.log(2);
@@ -16,6 +17,7 @@ console.log(points);
 
 var score = 75;
 console.log(score);
+*/
 
 // one line comment
 
@@ -34,3 +36,4 @@ console.log(score);
 * Object -> Complex data structures - Arrays, Dates, Literals etc
 * Symbol -> Used with objects (new adition to js)
 */ 
+
