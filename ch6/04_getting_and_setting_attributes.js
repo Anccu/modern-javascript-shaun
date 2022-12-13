@@ -6,7 +6,7 @@ link.setAttribute('href','https://www.thenetninja.co.uk'); // (the attribute, th
 link.innerText = 'The Net Ninja website';
 
 const msg = document.querySelector('#ggg');
-console.log(msg.getAttribute('class'));
+console.log(msg.getAttribute('class')); // error
 
 msg.setAttribute('class','success');
 msg.setAttribute('style','color:green');
