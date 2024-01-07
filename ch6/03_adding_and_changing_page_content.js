@@ -1,6 +1,6 @@
 // grab a reference to the paragraph
-const para = document.querySelector('p');
-console.log(para.innerText);
+const para = document.querySelector('p');// grab the first element
+console.log(para.innerText);// show the first element
 console.log('-----------------------------------------------------');
 
 // change the inside of the tag
@@ -14,19 +14,22 @@ console.log(para.innerText);
 console.log('-----------------------------------------------------');
 
 // to change the text of several elements at the same time
-const paras = document.querySelectorAll('p');
-
+const paras = document.querySelectorAll('p');// get all the elements as a node list
+// show each one of the list and add an extra text to each one of those elements
 paras.forEach(para => {
   console.log(para.innerText);
   para.innerText += ' new text';  
 });
 console.log('-----------------------------------------------------');
 
+// get a reference of an alement
 const content = document.querySelector('.content');
 
+// add some content to the inner html
 console.log(content.innerHTML);
-content.innerHTML += '<h2> This is a new h2</>';
+content.innerHTML += '<h2> This is a new h2</>';// if we want to replace we use = sign instead of =+
 console.log('-----------------------------------------------------');
+
 
 const people = ['mario','luigi','yoshi'];
 

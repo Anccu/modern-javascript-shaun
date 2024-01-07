@@ -1,4 +1,5 @@
 // Other ways to query the DOM
+// get an element by id (get an reference of that element)
 const title = document.getElementById('page-title');
 console.log(title);
 console.log('---------------------------------------------------');

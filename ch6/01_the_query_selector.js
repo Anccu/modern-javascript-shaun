@@ -13,7 +13,7 @@ console.log(err2);
 */
 
 console.log('-----------------------------------------------');
-const paras = document.querySelectorAll('p'); // will get all the p tags
+const paras = document.querySelectorAll('p'); // will get all the p tags (a collection of nodes)
 console.log(paras); // print a node list with the elements
 console.log(paras[2]); // prints the element with index 2
 

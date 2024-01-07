@@ -1,6 +1,6 @@
 // callbacks & foreach
 
-// we can a function as aparameter and we call it a callback function
+// we can pass a function as aparameter and we call it a callback function
 const myFunc = (callbackFunc) => {
   // do something 
   let value = 50;
